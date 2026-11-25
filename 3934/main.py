@@ -1,7 +1,7 @@
 from collections import Counter
 
 class Solution:
-    def smallestUniqueSubarray(self, nums: List[int]) -> int:
+    def smallestUniqueSubarray(self, nums: list[int]) -> int:
         n = len(nums)
         base = 100003
         mod = 10**9 + 7
